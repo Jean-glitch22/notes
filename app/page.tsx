@@ -11,7 +11,7 @@ export default async function Home() {
 
   return (
     <div>
-      <h1>{data.data?.[0].content}</h1>
+      <h1>{data.data?.[1].content}</h1>
     </div>
   )
 }
